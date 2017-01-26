@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'advertisement/index'
+
+  get 'advertisement/show'
+
+  get 'advertisement/new'
+
+  get 'advertisement/create'
+
   get 'welcome/index'
 
   get 'welcome/about'

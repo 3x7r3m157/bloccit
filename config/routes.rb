@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+
   get 'posts/index'
 
   get 'posts/show'
@@ -8,6 +10,9 @@ Rails.application.routes.draw do
   get 'posts/edit'
 
   resources :posts
+  resources :questions
+  resources :advertisements
+
 
   get 'about' => 'welcome#about'
 
